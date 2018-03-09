@@ -47,3 +47,58 @@ table {
 	border-spacing: 0;
 }
 /*================================================================*/
+@font-face {
+    font-family: 'master_of_breakregular';
+    src: url('../fonts/logo/master_of_break-webfont.woff2') format('woff2'),
+         url('../fonts/logo/master_of_break-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+html{
+	font-family: 'Roboto', sans-serif;
+}
+
+.header-menu{
+	background: #fff;
+	width: 100%;
+}
+.banner-slider{
+	width: 100%;
+}
+.banner-img{
+	background: url(../img/banner.jpg) no-repeat 50% 50% / cover;
+	min-height: 770px;
+	position: relative;
+	h3{
+		font-family: 'master_of_breakregular';
+		color: red;
+		font-weight: 300;
+		font-size: 8rem;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		z-index: 2;
+		transform: translate(-50%,-50%);
+	}
+	h2{
+		font-family: 'master_of_breakregular';
+		color: #f7f7f7;
+		font-weight: bold;
+		font-size: 8rem;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+	}
+	p{
+		font-family: 'Roboto', sans-serif;
+		font-size: 2rem;
+		text-transform: uppercase;
+		color: #f7f7f7;
+		position: absolute;
+		top: 65%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+	}
+}

@@ -1,1 +1,1 @@
-var a=9,b=10,c=a+b;console.log(c);
+$(".banner-slider").slick({dots:!1,infinite:!0,speed:800,fade:!0,arrows:!0,cssEase:"linear",prevArrow:'<span class="ion-arrow-left-c slick-arrow slick-prev"></span>',nextArrow:'<span class="ion-arrow-right-c slick-arrow slick-next "></span>'});
