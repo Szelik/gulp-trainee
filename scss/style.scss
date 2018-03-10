@@ -290,12 +290,31 @@ html{
 .gallery{
 	width: 100%;
 	min-height: 876px;
+	overflow: hidden;
 }
 .breakfast{
 	background: url(../img/breakfast.jpg) no-repeat 50% 50%;
-	background-size: 475px;
+	background-size: 480px;
 	min-height: 436px;
 	width: 50%;
+	overflow: hidden;
+	position: relative;
+	h3{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%) rotateX(-90deg);
+		padding: 120px;
+		background: rgba(236, 5, 5, 0.5);
+		color: #f7f7f7;
+		font-size: 3rem;
+		text-transform: uppercase;
+		transition: .5s linear;
+	}
+}
+.breakfast:hover h3{
+	transform: translate(-50%,-50%) rotateX(0deg);
+	cursor: pointer;
 }
 .gallery-title{
 	background: #fff2ee;
@@ -306,4 +325,141 @@ html{
 		color: #ff7e66;
 		text-transform: uppercase;	
 	}
+}
+
+.cookies{
+	background: url(../img/chizcake.jpg) no-repeat 50% 50%;
+	background-size: 970px;
+	min-height: 436px;
+	overflow: hidden;
+	position: relative;
+	h3{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%) rotateX(-90deg);
+		padding: 120px;
+		background: rgba(236, 5, 5, 0.5);
+		color: #f7f7f7;
+		font-size: 3rem;
+		text-transform: uppercase;
+		transition: .5s linear;
+	}
+}
+.cookies:hover h3{
+	transform: translate(-50%,-50%) rotateX(0deg);
+	cursor: pointer;
+}
+.keks{
+	background: url(../img/makarun.jpg) no-repeat 50% 50%;
+	background-size: 970px;
+	min-height: 436px;
+	overflow: hidden;
+	position: relative;
+	h3{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%) rotateX(-90deg);
+		padding: 120px;
+		background: rgba(236, 5, 5, 0.5);
+		color: #f7f7f7;
+		font-size: 3rem;
+		text-transform: uppercase;
+transition: .5s linear;
+	}
+}
+.keks:hover h3{
+	transform: translate(-50%,-50%) rotateX(0deg);
+	cursor: pointer;
+}
+.cruasan{
+	background: url(../img/cruasan.jpg) no-repeat 50% 50%;
+	background-size: 675px;
+	min-height: 436px;
+	width: 50%;
+	overflow: hidden;
+	position: relative;
+	h3{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%) rotateX(-90deg);
+		padding: 120px;
+		background: rgba(236, 5, 5, 0.5);
+		color: #f7f7f7;
+		font-size: 3rem;
+		text-transform: uppercase;
+transition: .5s linear;
+	}
+}
+.cruasan:hover h3{
+	transform: translate(-50%,-50%) rotateX(0deg);
+	cursor: pointer;
+}
+.fastfood{
+	background: url(../img/fastfood.jpg) 100% 50% no-repeat;
+	background-size: 707px;
+	min-height: 436px;
+    width: 50%;
+	overflow: hidden;
+	position: relative;
+	h3{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%) rotateX(-90deg);
+		padding: 120px;
+		background: rgba(236, 5, 5, 0.5);
+		color: #f7f7f7;
+		font-size: 3rem;
+		text-transform: uppercase;
+transition: .5s linear;
+	}
+}
+.fastfood:hover h3{
+	transform: translate(-50%,-50%) rotateX(0deg);
+	cursor: pointer;
+}
+// ===================blog================
+.blog-card-first{
+	background: url(../img/card-img-1.jpg)no-repeat 50% 50%;
+	background-size: 707px;
+	min-height: 400px;
+	position: relative;
+}
+.card-head{
+	background: #fff;
+	border-radius: 0 0 50% 50%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+	p{
+		font-size: 2rem;
+		text-transform: uppercase;
+		color: #000;
+	}
+	h3{
+		font-size: 2rem;
+		color: #f01b16;
+		font-family: 'master_of_breakregular';
+		text-transform: capitalize;
+		padding: 15px 0;
+	}
+	a{
+			background: #ff7e66;
+			padding: 10px 13px;
+			display: inline-block;
+			text-transform: uppercase;
+			color: #fff2ee;
+			font-size: 1.2rem;
+			transform: scale(0);
+			transition: .5s linear;
+		}
+		a:hover{
+			text-decoration: none;
+			background: #f01b16;
+		}
 }
